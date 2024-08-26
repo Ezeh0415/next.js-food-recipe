@@ -109,7 +109,7 @@ const SignUp = () => {
                             onChange={handlePwdChange}
                             className="w-[100%] p-1 text-lg font-bold px-1 rounded-md ml-1 text-black mt-[3%] border"
                         />
-                        <div className=" w-[100%] h-3 rounded-full mt-3 mb-3 capitalize font-semibold ">
+                        <div className=" w-[100%] h-3 rounded-full mt-3 mb-8 capitalize font-semibold ">
                             <p className='text-red-400'>{errorMessage}</p>
                         </div>
                     </div>
